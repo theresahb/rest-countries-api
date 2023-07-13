@@ -1,0 +1,126 @@
+// .dark-theme {
+//     $dark-blue: hsl(209, 23%, 22%);
+//     $very-dark-blue: hsl(207, 26%, 17%);
+//     $very-dark-blue-light-text: hsl(200, 15%, 8%);
+//     $dark-gray: hsl(0, 0%, 52%);
+//     $very-light-gray: hsl(0, 0%, 98%);
+//     $white: hsl(0, 0%, 100%);
+// }
+
+// .light-theme {
+//     $dark-blue: hsl(209, 23%, 22%);
+//     $very-dark-blue: hsl(207, 26%, 17%);
+//     $very-dark-blue-light-text: hsl(200, 15%, 8%);
+//     $dark-gray: hsl(0, 0%, 52%);
+//     $very-light-gray: hsl(0, 0%, 98%);
+//     $white: hsl(0, 0%, 100%);
+// }
+
+// .dark-theme {
+//     $navbar: hsl(209, 23%, 22%);
+//     $body-background: hsl(207, 26%, 17%);
+//     $text-color: hsl(0, 0%, 100%);
+// }
+
+
+// .theme {
+//     $navbar: hsl(209, 23%, 22%);
+//     $body-background: hsl(207, 26%, 17%);
+//     $text-color: hsl(0, 0%, 100%);
+//     $box-shadow: hsla(0, 0%, 52%, 0.096);
+
+//     &--dark {
+//         --navbar: $navbar;
+//         --body-background: $body-background;
+//         --text-color: $text-color;
+//         --box-shadow: $box-shadow;
+//     }
+    
+//     &--light {
+//         --navbar: $navbar;
+//         --body-background: $body-background;
+//         --text-color: $text-color;
+//         --box-shadow: $box-shadow;
+//     }
+// }
+
+
+
+    $navbar: hsl(209, 23%, 22%);
+    $body-background: hsl(207, 26%, 17%);
+    $text-color: hsl(0, 0%, 100%);
+    $box-shadow: hsla(0, 0%, 52%, 0.096);
+
+
+
+    $navbar-light: hsl(0, 0%, 100%);
+    $body-background-light: hsl(0, 0%, 98%);
+    $text-color-light: hsl(200, 15%, 8%);
+    $box-shadow-light: hsla(0, 0%, 52%, 0.096);
+
+
+
+.theme {
+    --navbar: #{$navbar-light};
+    --body-background: #{$body-background-light};
+    --text-color: #{$text-color-light};
+    --box-shadow: #{$box-shadow-light};
+
+    &--dark {
+        --navbar: #{$navbar};
+        --body-background: #{$body-background};
+        --text-color: #{$text-color};
+        --box-shadow: #{$box-shadow};
+    }
+  
+    &--light {
+        --navbar: #{$navbar-light};
+        --body-background: #{$body-background-light};
+        --text-color: #{$text-color-light};
+        --box-shadow: #{$box-shadow-light};
+    }
+}
+
+
+// $themes: (
+//     dark: (
+//         navbar: hsl(209, 23%, 22%),
+//         body-background: hsl(207, 26%, 17%),
+//         text-color: hsl(0, 0%, 100%),
+//         box-shadow: hsla(0, 0%, 52%, 0.096),
+//     ),
+  
+//     light: (
+//         navbar: hsl(0, 0%, 100%),
+//         body-background: hsl(0, 0%, 98%),
+//         text-color: hsl(200, 15%, 8%),
+//         box-shadow: hsla(0, 0%, 52%, 0.096),
+//     )
+// )
+  
+  
+
+
+// .dark-theme {
+//     $navbar: hsl(209, 23%, 22%);
+//     $body-background: hsl(207, 26%, 17%);
+//     $text-color: hsl(0, 0%, 100%);
+//     $box-shadow: hsla(0, 0%, 52%, 0.096);
+// }
+
+// .light-theme {
+//     $navbar: hsl(0, 0%, 100%);
+//     $body-background: hsl(0, 0%, 98%);
+//     $text-color: hsl(200, 15%, 8%);
+//     $box-shadow: hsla(0, 0%, 52%, 0.096);
+// }
+
+// $navbar: hsl(209, 23%, 22%);
+// $body-background: hsl(207, 26%, 17%);
+// $text-color: hsl(0, 0%, 100%);
+// $box-shadow: hsla(0, 0%, 52%, 0.096);
+
+// $navbar: hsl(0, 0%, 100%);
+// $body-background: hsl(0, 0%, 98%);
+// $text-color: hsl(200, 15%, 8%);
+// $box-shadow: hsla(0, 0%, 52%, 0.096);
